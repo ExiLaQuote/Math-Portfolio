@@ -98,7 +98,7 @@ body {background-color: black; justify-content: space-around;}
 
 /* TAAG PORTFOLIO */
 
-#T-header {border: 1vh solid var(--green); height: 13vh;}
+#T-header {border: 1vh solid var(--teal); height: 13vh;}
 
 .tabsBG {
   z-index: 50;
@@ -115,15 +115,17 @@ body {background-color: black; justify-content: space-around;}
 }
 
 #headT-A + .textBG {transform: translate(0vw, 100vh);}
-#headT-A + .textBG + .textBG {transform: translate(0vw, 200vh); padding-bottom: 12vh;}
+#headT-A + .textBG {transform: translate(0vw, 100vh);}
+#headT-A + .textBG + .imgBG {transform: translate(0vw, 200vh)}
+#headT-A + .textBG + .imgBG + .imgBG {transform: translate(0vw, 280vh); flex-direction: row-reverse;}
+#headT-A + .textBG + .imgBG + .imgBG + .textBG {transform: translate(0vw, 340vh); padding-bottom: 12vh;}
 #headT-B + .imgBG {transform: translate(0vw, 100vh); flex-direction: row-reverse;}
-#headT-B + .imgBG + .imgBG {transform: translate(0vw, 200vh);}
-#headT-B ~ .textBG {transform: translate(0vw, 300vh); padding-bottom: 12vh;}
+#headT-B + .imgBG + .imgBG {transform: translate(0vw, 190vh);}
+#headT-B ~ .textBG {transform: translate(0vw, 270vh); padding-bottom: 14vh;}
 #rando1 {transform: translate(0vw, 100vh);}
-#rando2 {transform: translate(0vw, 200vh);}
-#rando3 {transform: translate(0vw, 300vh); padding-bottom: 12vh;}
+#rando3 {transform: translate(0vw, 180vh); padding-bottom: 12vh;}
 #headT-D + .textBG {transform: translate(0vw, 100vh);}
-#headT-D + .textBG +.textBG {transform: translate(0vw, 200vh);}
+#headT-D + .textBG +.textBG {transform: translate(0vw, 190vh); padding-bottom: 14vh;}
 #headT-D ~ .imgBG {transform: translate(0vw, 380vh); padding-bottom: 12vh;}
 
 .tabsTXT {
@@ -157,7 +159,7 @@ hr {height: 0.4vh; border-radius: 100%;}
 .textBG hr {height: 0.8vh; width: 80vw;}
 .title {font-weight: 900; font-size: 3.7vw; color: white;}
 #T-header p {transition: color 200ms ease, font-size 200ms ease; cursor: pointer;}
-#T-header p:hover {color: var(--green); font-size: 4vh;}
+#T-header p:hover {color: var(--yellow); font-size: 4vh;}
 
 .imgBG {
   position: absolute;
@@ -172,7 +174,7 @@ hr {height: 0.4vh; border-radius: 100%;}
   font-family: "Geograph";
   font-size: 1.3vw;
   transform: translate(0vw, -1.3vw);
-  max-width: 50vw;
+  max-width: 30vw;
 	color: white;
 }
 
